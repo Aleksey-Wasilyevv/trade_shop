@@ -23,9 +23,14 @@
             <input class="form-control" type="text" name="price"/>
             <label for="description" class="control-label">Описание товара</label>
             <textarea class="form-control" rows="4"></textarea>
-
+            <div class="col-sm-offset-3 col-sm-6">
+                <button type="submit" class="btn btn-default">
+                    <i class="fa fa-plus"></i> Добавить
+                </button>
+            </div>
         </div>
     </div>
+    <h2>Параметры товара</h2>
     <hr>
 </div>
 </body>
