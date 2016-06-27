@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('additem','ItemsController@add');
+Route::post('additem','ItemController@save');
